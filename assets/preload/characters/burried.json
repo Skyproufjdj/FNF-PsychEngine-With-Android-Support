@@ -6,76 +6,10 @@
 				0
 			],
 			"loop": false,
-			"anim": "idle",
-			"fps": 24,
-			"name": "BF IDLE",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "BF LEFT MISS"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "BF LEFT NOTE"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [],
-			"name": "BF UP MISS"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "BF UP NOTE"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "BF RIGHT NOTE"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "BF RIGHT MISS"
+			"name": "buried_left"
 		},
 		{
 			"offsets": [
@@ -86,7 +20,7 @@
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "BF DOWN NOTE"
+			"name": "buried_down"
 		},
 		{
 			"offsets": [
@@ -95,28 +29,72 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singDOWNmiss",
+			"anim": "singUP",
 			"indices": [],
-			"name": "BF DOWN MISS"
+			"name": "buried_up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "buried_right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "buried_idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "buried_ground",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "scream",
+			"fps": 24,
+			"name": "buried_scream",
+			"indices": []
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/bfPixel",
+	"image": "characters/buriedalive_assets",
 	"position": [
-		0,
-		350
+		190,
+		260
 	],
-	"healthicon": "bf-pixel",
-	"flip_x": true,
+	"healthicon": "burried",
+	"flip_x": false,
 	"healthbar_colors": [
-		123,
-		214,
-		246
+		180,
+		180,
+		180
 	],
 	"camera_position": [
-		310,
-		-190
+		-480,
+		-230
 	],
 	"sing_duration": 4,
-	"scale": 6
+	"scale": 6.50000000000002
 }
